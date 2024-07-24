@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(247, 243, 238);
+    padding: 10px;
+}
+
+html{
+    font-size: 10px;
+}
+
+header{
+    margin-top: 30px;
+    margin: 30 10px;
+}
+header .col-1 h3{
+    font-size:3.5rem;
+    font-weight: bold;
+}
+
+header .col-5 ul {
+    display: flex;
+    list-style: none;
+    margin: 15px;
+    margin-left: 10px;
+}
+
+header .col-5 ul li{
+    margin-left:1.5rem;
+}
+
+header .col-5 ul li a{
+    font-size:1.8rem ;
+    text-decoration: none;
+    color:rgb(52, 52, 52);
+}
+
+header .col-5 ul li a:hover{
+    box-shadow: 0 1px black;
+    line-height: 6px;
+}
+
+header .basket{
+    display: flex;
+    justify-content: end;
+    margin-top: 15px;
+}
+
+header .basket h5{
+    font-size: 2rem;
+    color:rgb(52, 52, 52);
+}
+
+header .basket .zero{
+    display: inline-block;
+}
+
+ .basket .bi-list{
+    font-size: 1.8rem;
+    display: none;
+}
+
+@media(max-width:965px){
+    html,
+    body{
+        width: 100%;
+        overflow-x:hidden ;   
+    }
+}
+
+@media(max-width:961){
+    body{
+        width: 100%;
+    }
+}
+@media(max-width:1000px){
+    header .col-5 ul li{
+        display: none;
+    }
+
+    body{
+        font-size: 25px;
+    }
+     .basket .bi-list{
+        display: inline-block;
+    }
+
+    header .basket .zero{
+        display: none;
+    } 
+}
+
+@media (min-width:1000px)and(max-width:1600px){
+     header .basket .zero{
+        display: inline-block;
+    }
+
+    /* .basket .bi-list{
+        display: none;
+        padding-right: 5rem;
+    } */
+} 
+
+@media(max-width:1000px){
+    html{
+        font-size: 10px;
+    }
+
+    .basket .bi-list{
+        display: inline-block;
+    }
+
+    header .basket .zero{
+        display: none;
+    }
+    }
+
+#homeware .cols{
+    background-color: black;
+    height: auto;
+    width: 100%;
+}
+#homeware .cols .sheyn{
+     color: #fff; 
+     /* background-color: black;  */
+    height:auto ;
+    width: 100%;
+}
+
+#homeware .place{
+    padding: 50px;
+}
+
+#homeware .cols{
+    margin-top: 30px;
+}
+
+#homeware .sheyn .font-size{
+    font-size: 4.5rem;
+}
+#homeware .cols p{
+    font-size: 2.5rem;
+    line-height: 3.6rem;
+}
+
+#homeware .cols .apply-btn button{
+    padding: 13px;
+    width: 200px;
+    background-color: black;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+#homeware .cols .apply-btn{
+    padding: 30px;
+    margin-left: 15px;
+}
+
+
+@media(max-width:755px){
+  #homeware .col-sm-12{
+    width: 100%;
+  }
+}
+
+#vase .col-2 {
+ margin-top: 100px;
+}
+
+#vase .col-2 h5{
+    text-align: center;
+    font-size: 1rem;
+    color: gray;
+}
+
+@media(max-width:1000px){
+    #vase .col-md-6{
+        width: 50%;
+    }
+}
+
+@media(max-width:772px){
+    #vase .col-sm-12{
+        width: 100%;
+    }
+}
+
+#type{
+    margin-top: 100px;
+    position: relative;
+}
+
+#type .col-3 div{
+    font-size: 2rem;
+    color: #fff;
+    padding: 6px;
+    position: absolute;
+    top: 20px;
+}
+
+@media(max-width:700px){
+   #type .col-sm-6{
+        width: 50%;
+    }
+}
